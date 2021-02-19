@@ -1,0 +1,77 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 5px;
+    min-height: 100vh;
+}
+
+.container {
+	  text-align: center;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top: 80px;
+    width: 800px;
+    height: auto;
+    margin-left: 250px;
+}
+
+.page {
+    font-size: 60px;
+}
+
+.reseaux {
+    font-size: 40px;
+}
+
+.accueil {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top: 200px;
+    width: 300px;
+    height: auto;
+    margin-left: 450px;
+    font-size: 40px;
+    background-color: #DCDCDC;
+}
+
+#user {
+    border-radius: 5px;
+    height: 35px;
+    width: 300px;
+}
+
+#mdp {
+    border-radius: 5px;
+    height: 35px;
+    width: 300px;
+}
+
+
+#loginOK {
+    margin-left: 120px;
+    height: 30px;
+    background-color: #00FF00;
+    border-radius: 5px;
+}
+
+#meta {
+    width: 500px;
+}
+
+#titre {
+    width: 500px;
+}
+  
+#presentation {
+    width: 500px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+}
